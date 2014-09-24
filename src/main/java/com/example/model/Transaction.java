@@ -1,13 +1,18 @@
-package com.example.models;
+package com.example.model;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
 import com.example.enums.TransactionState;
 import com.example.enums.TransactionType;
 
+@XmlRootElement
+@XmlType (propOrder={"id","store","pos","number","active","client","user"})
 public class Transaction implements Model<Long> {
 
 	/** */

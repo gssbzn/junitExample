@@ -3,7 +3,7 @@ package com.example.dao;
 import java.util.List;
 import java.util.Optional;
 
-import com.example.models.Model;
+import com.example.model.Model;
 
 /**
  * Clase abstracta para generalizar los metodos en un DAO.

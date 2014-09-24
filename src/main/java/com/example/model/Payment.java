@@ -1,9 +1,14 @@
-package com.example.models;
+package com.example.model;
 
 import java.math.BigDecimal;
 
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
 import com.example.enums.PaymentMethod;
 
+@XmlRootElement
+@XmlType (propOrder={"id","payMethod","ammount"})
 public class Payment implements Model<String> {
 
 	/** */

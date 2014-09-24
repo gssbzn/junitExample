@@ -1,6 +1,6 @@
 package com.example.dao;
 
-import com.example.models.Client;
+import com.example.model.Client;
 
 /**
  * DAO for Client Model.

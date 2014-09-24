@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import com.example.dao.TransactionDAO;
-import com.example.models.Transaction;
+import com.example.model.Transaction;
 
 /**
  * Transactions DAO Memory Implementation.

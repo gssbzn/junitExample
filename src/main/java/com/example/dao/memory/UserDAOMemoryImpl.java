@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import com.example.dao.UserDAO;
-import com.example.models.User;
+import com.example.model.User;
 
 /**
  * User DAO Memory Implementation.

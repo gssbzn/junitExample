@@ -3,7 +3,7 @@ package com.example.jUnitExample;
 import com.example.dao.ClientDAO;
 import com.example.factory.DAOFactory;
 import com.example.factory.DAOFactory.DAOTYPE;
-import com.example.models.Client;
+import com.example.model.Client;
 
 /**
  * Hello world!

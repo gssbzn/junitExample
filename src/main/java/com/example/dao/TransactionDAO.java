@@ -1,6 +1,6 @@
 package com.example.dao;
 
-import com.example.models.Transaction;
+import com.example.model.Transaction;
 
 /**
  * DAO para manipulacion de Transacciones.

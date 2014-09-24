@@ -1,7 +1,12 @@
-package com.example.models;
+package com.example.model;
+
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
 import com.example.enums.ClientType;
 
+@XmlRootElement
+@XmlType (propOrder={"id","name","adress","phone","email","clientType","employeeId"})
 public class Client implements Model<String> {
 	
 	/** */

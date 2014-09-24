@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import com.example.dao.ArticleDAO;
-import com.example.models.Article;
+import com.example.model.Article;
 
 /**
  * Article DAO Memory Implementation.

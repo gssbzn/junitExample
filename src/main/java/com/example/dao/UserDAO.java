@@ -1,6 +1,6 @@
 package com.example.dao;
 
-import com.example.models.User;
+import com.example.model.User;
 
 /**
  * DAO para maniulacion de usuarios.

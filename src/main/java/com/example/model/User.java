@@ -1,5 +1,10 @@
-package com.example.models;
+package com.example.model;
 
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlRootElement
+@XmlType (propOrder={"id","idEPA","name"})
 public class User implements Model<Long> {
 
 	/**	 */

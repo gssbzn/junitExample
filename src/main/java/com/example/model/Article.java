@@ -1,10 +1,15 @@
-package com.example.models;
+package com.example.model;
 
 import java.math.BigDecimal;
 
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
 import com.example.enums.SaleUnit;
 
-public class Article implements Model<Long> {
+@XmlRootElement
+@XmlType (propOrder={"id","code","name","items","itemCost","ItemTaxAmount"})
+public final class Article implements Model<Long> {
 
 	/**	 */
 	private static final long serialVersionUID = 5845081352321961718L;

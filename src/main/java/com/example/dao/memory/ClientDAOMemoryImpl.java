@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import com.example.dao.ClientDAO;
-import com.example.models.Client;
+import com.example.model.Client;
 
 /**
  * Client DAO Memory Implementation.

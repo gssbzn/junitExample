@@ -1,6 +1,6 @@
 package com.example.dao;
 
-import com.example.models.Article;
+import com.example.model.Article;
 
 /**
  * DAO para manipulacion de Articulos.
